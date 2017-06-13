@@ -1,0 +1,23 @@
+Nradio v0.1
+Ncurses frontend (with playlist) for web radiostations.
+Uses mpg123 and ogg123.
+
+usage: nradio playlistfile
+
+Navigation: j - down, k - up, enter - choose radiostation,
+q - abort playing and return to playlist.
+
+Example of .nrp (NRadio Playlist) file in directory.
+It has simple structure:
+---
+Name in playlist0
+URL0
+Name in playlist1
+URL1
+Name in playlist2
+URL2
+...
+---
+
+Author: Kurashov Artem
+License: GNU GPLv3
